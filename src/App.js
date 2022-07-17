@@ -23,10 +23,11 @@ const App = () => {
   }
 
   return (
-    <div className="main-container">
-      <div  className = "container" id = {light}>
-              <button className = "indicator" onClick={e => handleLight(e)}>Change Theme</button>
+    <div className="container">
+      <div  className = "containerButton" id = {light}>
+              <button className = "button" id={light} onClick={e => handleLight(e)}>Change Theme</button>
       </div>
+    <div className="main-container">
       {console.log(light)}
       <input type='text' className='search' placeholder='Search...' value={query} id={light} onChange={(e) => setQuery(e.target.value)} onKeyPress={search} />
       {weather.main && (
@@ -45,6 +46,7 @@ const App = () => {
           </div>
         </div>
       )}
+    </div>
     </div>
   )
 }
