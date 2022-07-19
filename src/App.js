@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import { fetchWeather } from './api/fetchWeather';
 import './App.css'
+import Footer from './footer'
 
 const App = () => {
   const [query, setQuery] = useState('')
@@ -47,6 +48,7 @@ const App = () => {
         </div>
       )}
     </div>
+      <Footer />
     </div>
   )
 }
