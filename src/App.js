@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { fetchWeather } from './api/fetchWeather';
 import './App.css'
 import Footer from './footer'
+import NavBar from './navBar'
 
 const App = () => {
   const [query, setQuery] = useState('')
@@ -25,11 +26,9 @@ const App = () => {
 
   return (
     <div className="container">
-      <div  className = "containerButton" id = {light}>
-              <button className = "button" id={light} onClick={e => handleLight(e)}>Change Theme</button>
-      </div>
+      <NavBar light={light} handleLight={handleLight}/>
     <div className="main-container">
-      {console.log(light)}
+      {/* {console.log(light)} */}
       <input type='text' className='search' placeholder='Search...' value={query} id={light} onChange={(e) => setQuery(e.target.value)} onKeyPress={search} />
       {weather.main && (
         <div className="city" id = {light}>
