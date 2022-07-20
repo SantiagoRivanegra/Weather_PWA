@@ -1,0 +1,49 @@
+.containerButton{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgba(187, 190, 189, 0.411);
+  padding: 20px;
+}
+
+#ON.button{
+  width: 200px;
+  color: #aeb6c9;
+  background: rgba(10, 10, 10, 0.85);
+  border-radius: 20px;
+}
+
+#OFF.button{
+  width: 200px;
+  color: #1e2432;
+  background: rgba(250, 250, 250, 0.678);
+  border-radius: 20px;
+}
+
+#ON.buttonEs{
+  width: 40px;
+  color: #1e2432;
+  background: rgba(250, 250, 250, 0.678);
+  border-radius: 20px;
+}
+
+#OFF.buttonEs{
+  width: 40px;
+  color: #aeb6c9;
+  background: rgba(10, 10, 10, 0.85);
+  border-radius: 20px;
+}
+
+#ON.buttonEn{
+  width: 40px;
+  color: #1e2432;
+  background: rgba(250, 250, 250, 0.678);
+  border-radius: 20px;
+}
+
+#OFF.buttonEn{
+  width: 40px;
+  color: #aeb6c9;
+  background: rgba(10, 10, 10, 0.85);
+  border-radius: 20px;
+}
