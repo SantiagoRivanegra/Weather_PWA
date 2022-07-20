@@ -1,3 +1,7 @@
+WeatherApp is a Progressive Web Application. In this app you can find your preferred location for know your current weather. Too you can switch theme between dark or light. This app consumes information from an API(OpenWeatherApp). The technologies used are:
+*Frontend: JS, ReactJS, HTML, CSS
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
