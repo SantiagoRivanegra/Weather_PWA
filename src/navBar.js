@@ -7,7 +7,7 @@ function NavBar({ light, handleLight, lang, handleLang }){
   return(
     <div  className = "containerButton" id = {light}>
       {light === 'ON' ?
-      <button className = "button" id={light} onClick={e => handleLight(e)}>{lang==='es' ? "Cambiar a Tema Obscuro" : "Change to Dark Theme"}</button>
+      <button className = "button" id={light} onClick={e => handleLight(e)}>{lang==='es' ? "Cambiar a Tema Oscuro" : "Change to Dark Theme"}</button>
       : <button className = "button" id={light} onClick={e => handleLight(e)}>{lang==='es' ? "Cambiar a Tema Claro" : "Change to Light Theme"}</button>}
 
 <div className = "containerLang">
